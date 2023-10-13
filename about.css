@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: roboto;
+}
+
+body {
+  background: url(photos/pexels-kasuma-427676.jpg) center center no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  min-height: 90vh;
+}
+
+.about-div {
+  border-radius: 20px;
+  padding: 3rem;
+  width: 70%;
+  border: 0.5px solid black;
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  min-height: 88vh;
+}
+
+.about-andiv {
+  border: 1px solid grey;
+  background-color: lightskyblue;
+  border-radius: 20px;
+  padding: 0 4rem 0 4rem;
+  min-height: 78vh;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Add more styles here */
+
+.h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 500;
+  font-size: 6rem;
+  margin-bottom: 5rem;
+}
+
+.h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  font-size: 2rem;
+  font-size: 500;
+}
+
+.div-purpose {
+  display: grid;
+}
+
+.purpose {
+  margin-bottom: 8rem;
+}

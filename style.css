@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+body {
+  margin: 5rem 15rem 0 15rem;
+  background: url(photos/pexels-kasuma-427676.jpg) center center no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+}
+
+/* HEADER */
+
+header {
+  border: 0.5px solid black;
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.divide-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+}
+
+.divide-h1 {
+  font-size: 6rem;
+  font-family: roboto;
+  font-weight: 600;
+  display: flex;
+}
+
+.divide-h1 a {
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+
+.divide-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+}
+
+.divide-ul li {
+  list-style: none;
+  margin-right: 1.5rem;
+  font-size: 3rem;
+}
+
+.divide-ul a {
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s all ease;
+  background-color: lightskyblue;
+  color: transparent;
+  border: 1px solid #000;
+  padding: 1rem;
+  border-radius: 20px;
+  outline: none;
+  cursor: context-menu;
+}
+
+.divide-ul a:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+.class-section {
+  display: flex;
+  justify-content: space-between;
+  /* box-sizing: border-box; */
+}
+
+/* MAIN */
+
+main {
+  margin-top: 4.5rem;
+  border: 0.5px solid black;
+  backdrop-filter: blur(7px);
+  border-radius: 20px;
+  min-height: 60vh;
+  padding: 24px;
+  outline: none;
+}
+
+.introduction {
+  margin: 1.5rem;
+  padding: 2rem;
+  border: 1px solid grey;
+  border-radius: 20px;
+  height: 60vh;
+  background-color: rgba(135, 206, 250, 0.9);
+}
+
+.class-h1 {
+  font-size: 4rem;
+  font-family: roboto;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.class-paragraph {
+  font-size: 2rem;
+  font-family: roboto;
+  font-weight: 400;
+  margin-top: 2rem;
+  line-height: 3rem;
+  /* word-spacing: 2px; */
+}
+
+.class-paragraphs {
+  font-size: 1.5rem;
+  font-family: roboto;
+  font-weight: 400;
+  padding: 10px;
+  margin-top: 0.5rem;
+  line-height: 3rem;
+  word-spacing: 1px;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 300px;
+  text-align: justify;
+}
+
+.div-combination {
+  display: grid;
+}
+
+.class-paragraphics {
+  border-radius: 20px;
+  border: 1px solid black;
+  width: 250px;
+  height: 90px;
+  padding: 10px;
+  line-height: 2rem;
+  font-weight: 400;
+  font-family: roboto;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.class-paragraphicss {
+  border-radius: 20px;
+  border: 1px solid black;
+  width: 250px;
+  height: 90px;
+  padding: 10px;
+  line-height: 2rem;
+  font-weight: 400;
+  font-family: roboto;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.h22 {
+  font-size: 1.5rem;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+}
+
+/* ABOUT PAGES */
