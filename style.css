@@ -212,12 +212,34 @@ p {
 .h12 {
   display: flex;
   justify-content: center;
-  align-items: center;
+  height: 44px;
+  padding: 3px;
+  width: 14vh;
+  font-size: 5rem;
+  font-family: Anek Telugu;
+  font-weight: 400;
   margin-bottom: 7rem;
   position: relative;
-  top: 0;
-
+  top: 20px;
+  left: 48.5rem;
+  border: 1px solid transparent;
+  transition: 1s all;
 }
+
+.h12 :hover {
+  text-align: center;
+  background-color: rgb(41, 140, 253);
+  border-radius: 5px;
+  width: 14vh;
+}
+
+.h12 a {
+  text-decoration: none;
+  color: rgb(5, 4, 4);
+  transition 1s all
+}
+
+
 
 .purposes {
   display: flex;
@@ -228,7 +250,8 @@ p {
   font-size: 3rem;
   font-family: roboto;
   font-weight: normal;
-  border: 2px solid grey;
+  border: 1px solid black;
+  border-radius: 5px;
   width: 30rem;
   height: 65vh;
   backdrop-filter: blur(5px);
@@ -242,9 +265,11 @@ p {
 }
 
 .RR {
-  border-top: 2px solid grey;
-  height: 58.3vh;
+  border-top: 1px solid black;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 58.5vh;
   position: relative;
   top: 20px;
-  background-color: red;
+  background-color: rgba(135, 206, 250, 0.9);
 }
